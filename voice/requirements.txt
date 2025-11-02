@@ -1,0 +1,11 @@
+# requirements.txt
+fastapi
+uvicorn
+google-generativeai
+google-genai
+python-dotenv
+python-multipart  # Uvicorn dependency, good practice to include
+pydantic-settings
+uvicorn[standard]
+slowapi
+google-cloud-texttospeech
